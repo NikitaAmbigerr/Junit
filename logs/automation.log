@@ -1,0 +1,63 @@
+17:34:44.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:34:44.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:34:44.103 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:34:44.103 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:34:44.103 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:34:44.121 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\AppData\Local\Temp\testng-eclipse-318856328\testng-customsuite.xml
+
+17:34:44.354 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 20 ms.
+17:34:44.832 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2b5825fa: 159 ms
+17:34:44.858 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@505a9d7c: 26 ms
+17:34:44.883 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@22b53226: 20 ms
+17:34:44.904 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@27305e6: 21 ms
+17:34:44.919 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4fbda97b: 15 ms
+17:34:44.920 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@75f5fd58: 1 ms
+21:15:40.436 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\Grouping.xml
+
+21:16:05.421 [main] INFO  testCases.TestCase_01 - Starting TC_001 AccountRegisteration
+21:16:06.043 [main] INFO  testCases.TestCase_01 - clicked on my account
+21:16:06.556 [main] INFO  testCases.TestCase_01 - clicked on Register
+21:16:08.735 [main] INFO  testCases.TestCase_01 - Entering first name 
+21:16:10.337 [main] INFO  testCases.TestCase_01 - Entering last name 
+21:16:10.583 [main] INFO  testCases.TestCase_01 - Entering email 
+21:16:10.731 [main] INFO  testCases.TestCase_01 - Entering telephone 
+21:16:10.848 [main] INFO  testCases.TestCase_01 - Entering password 
+21:16:11.020 [main] INFO  testCases.TestCase_01 - Entering confirm password 
+21:16:11.182 [main] INFO  testCases.TestCase_01 - Check privacy box 
+21:16:11.337 [main] INFO  testCases.TestCase_01 - click on continue 
+21:16:13.254 [main] INFO  testCases.TestCase_01 - validating expected message
+21:16:26.641 [main] INFO  testCases.TestCase_02_Propertiesfile - ***  started TestCase_02 Login ****
+21:16:26.644 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login
+21:16:27.233 [main] INFO  testCases.TestCase_02_Propertiesfile - entering Email
+21:16:27.493 [main] INFO  testCases.TestCase_02_Propertiesfile - Entering password
+21:16:27.736 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login button
+21:16:27.863 [main] INFO  testCases.TestCase_02_Propertiesfile - verifying msg dispalyed
+21:17:49.950 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
+
+21:19:33.594 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
+
+21:19:51.905 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
+
+22:28:34.515 [main] INFO  testCases.TestCase_01 - Starting TC_001 AccountRegisteration
+22:28:35.756 [main] INFO  testCases.TestCase_01 - clicked on my account
+22:28:36.571 [main] INFO  testCases.TestCase_01 - clicked on Register
+22:28:39.501 [main] INFO  testCases.TestCase_01 - Entering first name 
+22:28:41.676 [main] INFO  testCases.TestCase_01 - Entering last name 
+22:28:41.837 [main] INFO  testCases.TestCase_01 - Entering email 
+22:28:42.053 [main] INFO  testCases.TestCase_01 - Entering telephone 
+22:28:46.744 [main] INFO  testCases.TestCase_01 - Entering password 
+22:28:47.195 [main] INFO  testCases.TestCase_01 - Entering confirm password 
+22:28:47.364 [main] INFO  testCases.TestCase_01 - Check privacy box 
+22:28:47.525 [main] INFO  testCases.TestCase_01 - click on continue 
+22:28:49.845 [main] INFO  testCases.TestCase_01 - validating expected message
+22:29:37.470 [main] INFO  testCases.TestCase_02_Propertiesfile - ***  started TestCase_02 Login ****
+22:29:37.472 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login
+22:29:39.354 [main] INFO  testCases.TestCase_02_Propertiesfile - entering Email
+22:29:39.829 [main] INFO  testCases.TestCase_02_Propertiesfile - Entering password
+22:29:39.977 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login button
+22:29:41.674 [main] INFO  testCases.TestCase_02_Propertiesfile - verifying msg dispalyed

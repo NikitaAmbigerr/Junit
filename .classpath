@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-support-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-support-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-safari-driver-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-safari-driver-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-remote-driver-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-remote-driver-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-os-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-os-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-manager-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-manager-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-json-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-json-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-java-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-java-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-ie-driver-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-ie-driver-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-http-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-http-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-firefox-driver-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-firefox-driver-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-edge-driver-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-edge-driver-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-devtools-v142-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-devtools-v142-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-devtools-v141-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-devtools-v141-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-devtools-v140-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-devtools-v140-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-chromium-driver-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-chromium-driver-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-chrome-driver-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-chrome-driver-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-api-4.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/selenium-api-4.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-trace-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-trace-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-metrics-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-metrics-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-logs-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-logs-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-extension-autoconfigure-spi-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-extension-autoconfigure-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-extension-autoconfigure-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-common-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-common-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-sdk-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-exporter-logging-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-exporter-logging-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-context-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-context-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-common-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-common-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-api-1.55.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/opentelemetry-api-1.55.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/jspecify-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/jspecify-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/j2objc-annotations-3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/j2objc-annotations-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/guava-33.5.0-jre-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/guava-33.5.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/failureaccess-1.0.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/failureaccess-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/error_prone_annotations-2.41.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/error_prone_annotations-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/commons-exec-1.5.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/commons-exec-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/byte-buddy-1.17.8-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/byte-buddy-1.17.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/auto-service-annotations-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/win 10/Desktop/Seleniumjar/auto-service-annotations-1.1.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,59 @@
+18:37:49.336 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.378 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.380 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.382 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.391 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.392 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+18:37:49.400 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.401 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.406 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.407 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.407 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.407 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.409 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.410 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.414 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.415 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.416 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:37:49.417 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:37:49.438 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\AppData\Local\Temp\testng-eclipse--1065914648\testng-customsuite.xml
+
+18:37:49.488 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+18:37:53.997 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1f1cae23: 202 ms
+18:37:54.028 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1eb6e1c: 31 ms
+18:37:54.060 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@46d8f407: 32 ms
+18:37:54.080 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@63ec445c: 20 ms
+18:37:54.095 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@48b22fd4: 15 ms
+18:37:54.096 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6a9d5dff: 1 ms
+18:38:20.090 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\testng.xml
+
+18:38:32.234 [main] INFO  testCases.DDTestcase_03 - clicked on my account
+18:38:38.959 [main] INFO  testCases.DDTestcase_03 - clicked on my account
+18:46:58.775 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\testng.xml
+
+18:47:55.670 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\testng.xml
+
+18:58:43.346 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\testng.xml
+
+19:00:44.966 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\testng.xml
+
+19:08:35.636 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\crossbrowsertesting.xml
+
+19:08:45.932 [main] INFO  testCases.Propertiesfile_TestCase_02 - clicked on my account
+19:08:46.124 [main] INFO  testCases.Propertiesfile_TestCase_02 - ***  started TestCase_02 Login ****
+19:08:46.125 [main] INFO  testCases.Propertiesfile_TestCase_02 - clicking on login
+19:08:47.070 [main] INFO  testCases.Propertiesfile_TestCase_02 - entering Email
+19:08:47.290 [main] INFO  testCases.Propertiesfile_TestCase_02 - Entering password
+19:08:47.423 [main] INFO  testCases.Propertiesfile_TestCase_02 - clicking on login button
+19:08:48.603 [main] INFO  testCases.Propertiesfile_TestCase_02 - verifying msg dispalyed
+19:08:48.664 [main] INFO  testCases.Propertiesfile_TestCase_02 - *** Finished TestCase_02 Login ****
+19:09:27.161 [main] INFO  testCases.Propertiesfile_TestCase_02 - clicked on my account
+19:09:27.370 [main] INFO  testCases.Propertiesfile_TestCase_02 - ***  started TestCase_02 Login ****
+19:09:27.371 [main] INFO  testCases.Propertiesfile_TestCase_02 - clicking on login

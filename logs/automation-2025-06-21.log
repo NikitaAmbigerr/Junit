@@ -1,0 +1,71 @@
+21:43:55.319 [main] INFO  testCases.TestCase_01 - validating expected message
+21:45:36.319 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\Grouping.xml
+
+21:45:45.842 [main] INFO  testCases.TestCase_01 - Starting TC_001 AccountRegisteration
+21:45:45.892 [main] INFO  testCases.TestCase_01 - clicked on my account
+21:45:46.330 [main] INFO  testCases.TestCase_01 - clicked on Register
+21:45:47.281 [main] INFO  testCases.TestCase_01 - Entering first name 
+21:45:47.452 [main] INFO  testCases.TestCase_01 - Entering last name 
+21:45:47.573 [main] INFO  testCases.TestCase_01 - Entering email 
+21:45:47.732 [main] INFO  testCases.TestCase_01 - Entering telephone 
+21:45:47.878 [main] INFO  testCases.TestCase_01 - Entering password 
+21:45:48.006 [main] INFO  testCases.TestCase_01 - Entering confirm password 
+21:45:48.128 [main] INFO  testCases.TestCase_01 - Check privacy box 
+21:45:48.312 [main] INFO  testCases.TestCase_01 - click on continue 
+21:45:49.408 [main] INFO  testCases.TestCase_01 - validating expected message
+21:48:23.979 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\Grouping.xml
+
+21:48:34.289 [main] INFO  testCases.TestCase_01 - Starting TC_001 AccountRegisteration
+21:48:34.358 [main] INFO  testCases.TestCase_01 - clicked on my account
+21:48:34.549 [main] INFO  testCases.TestCase_01 - clicked on Register
+21:48:35.528 [main] INFO  testCases.TestCase_01 - Entering first name 
+21:48:35.704 [main] INFO  testCases.TestCase_01 - Entering last name 
+21:48:35.828 [main] INFO  testCases.TestCase_01 - Entering email 
+21:48:36.002 [main] INFO  testCases.TestCase_01 - Entering telephone 
+21:48:36.130 [main] INFO  testCases.TestCase_01 - Entering password 
+21:48:36.258 [main] INFO  testCases.TestCase_01 - Entering confirm password 
+21:48:36.393 [main] INFO  testCases.TestCase_01 - Check privacy box 
+21:48:36.550 [main] INFO  testCases.TestCase_01 - click on continue 
+21:48:37.571 [main] INFO  testCases.TestCase_01 - validating expected message
+22:38:41.249 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\Grouping.xml
+
+22:39:11.127 [main] INFO  testCases.TestCase_01 - Starting TC_001 AccountRegisteration
+22:39:11.232 [main] INFO  testCases.TestCase_01 - clicked on my account
+22:39:11.625 [main] INFO  testCases.TestCase_01 - clicked on Register
+22:39:13.021 [main] INFO  testCases.TestCase_01 - Entering first name 
+22:39:13.226 [main] INFO  testCases.TestCase_01 - Entering last name 
+22:39:13.402 [main] INFO  testCases.TestCase_01 - Entering email 
+22:39:13.542 [main] INFO  testCases.TestCase_01 - Entering telephone 
+22:39:13.666 [main] INFO  testCases.TestCase_01 - Entering password 
+22:39:13.814 [main] INFO  testCases.TestCase_01 - Entering confirm password 
+22:39:13.956 [main] INFO  testCases.TestCase_01 - Check privacy box 
+22:39:14.106 [main] INFO  testCases.TestCase_01 - click on continue 
+22:39:15.396 [main] INFO  testCases.TestCase_01 - validating expected message
+22:39:30.425 [main] INFO  testCases.TestCase_02_Propertiesfile - ***  started TestCase_02 Login ****
+22:39:30.426 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login
+22:39:31.353 [main] INFO  testCases.TestCase_02_Propertiesfile - entering Email
+22:39:31.633 [main] INFO  testCases.TestCase_02_Propertiesfile - Entering password
+22:39:31.778 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login button
+22:39:31.904 [main] INFO  testCases.TestCase_02_Propertiesfile - verifying msg dispalyed
+22:39:33.038 [main] INFO  testCases.TestCase_02_Propertiesfile - *** Finished TestCase_02 Login ****
+22:40:09.583 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\Grouping.xml
+
+22:40:18.271 [main] INFO  testCases.TestCase_01 - Starting TC_001 AccountRegisteration
+22:40:18.322 [main] INFO  testCases.TestCase_01 - clicked on my account
+22:40:18.491 [main] INFO  testCases.TestCase_01 - clicked on Register
+22:40:19.453 [main] INFO  testCases.TestCase_01 - Entering first name 
+22:40:19.630 [main] INFO  testCases.TestCase_01 - Entering last name 
+22:40:19.756 [main] INFO  testCases.TestCase_01 - Entering email 
+22:40:19.945 [main] INFO  testCases.TestCase_01 - Entering telephone 
+22:40:20.060 [main] INFO  testCases.TestCase_01 - Entering password 
+22:40:20.190 [main] INFO  testCases.TestCase_01 - Entering confirm password 
+22:40:20.326 [main] INFO  testCases.TestCase_01 - Check privacy box 
+22:40:20.484 [main] INFO  testCases.TestCase_01 - click on continue 
+22:40:22.248 [main] INFO  testCases.TestCase_01 - validating expected message
+22:40:32.125 [main] INFO  testCases.TestCase_02_Propertiesfile - ***  started TestCase_02 Login ****
+22:40:32.126 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login
+22:40:33.100 [main] INFO  testCases.TestCase_02_Propertiesfile - entering Email
