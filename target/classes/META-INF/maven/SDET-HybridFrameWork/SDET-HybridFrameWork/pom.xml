@@ -18,7 +18,7 @@
 			          <version>3.5.4</version>
             <configuration>
               <suiteXmlFiles>
-              	<suiteXmlFile>MasterSuitTesting.xml</suiteXmlFile>
+              	<suiteXmlFile>MasterSuitTestng1.xml</suiteXmlFile>
               </suiteXmlFiles>
            </configuration>
         </plugin>

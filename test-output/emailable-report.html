@@ -9,62 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">7</td><td class="num">0</td><td class="num">0</td><td class="num">2,995</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">94,751</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testCases.TestCase_01</td><td><a href="#m0">Setup</a></td><td rowspan="1">1771429792428</td><td rowspan="1">-1771429792428</td></tr><tr class="failedodd"><td rowspan="1">testCases.TestCase_02_Propertiesfile</td><td><a href="#m1">Setup</a></td><td rowspan="1">1771429792529</td><td rowspan="1">-1771429792529</td></tr><tr class="failedeven"><td rowspan="1">testCases.Testcase_03_DDT</td><td><a href="#m2">Setup</a></td><td rowspan="1">1771429792553</td><td rowspan="1">-1771429792553</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TestCase_01</td><td><a href="#m3">TearDown</a></td><td rowspan="1">1771429792522</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">testCases.TestCase_02_Propertiesfile</td><td><a href="#m4">TearDown</a></td><td rowspan="1">1771429792548</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">testCases.Testcase_03_DDT</td><td><a href="#m5">TearDown</a></td><td rowspan="1">1771429794912</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testCases.TestCase_01</td><td><a href="#m6">Registration_TestCase</a></td><td rowspan="1">1771429792487</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">testCases.TestCase_02_Propertiesfile</td><td><a href="#m7">login_TestCase</a></td><td rowspan="1">1771429792536</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="5">testCases.Testcase_03_DDT</td><td><a href="#m8">verify_login</a></td><td rowspan="5">1771429794857</td><td rowspan="5">1</td></tr><tr class="skippedeven"><td><a href="#m9">verify_login</a></td></tr><tr class="skippedeven"><td><a href="#m10">verify_login</a></td></tr><tr class="skippedeven"><td><a href="#m11">verify_login</a></td></tr><tr class="skippedeven"><td><a href="#m12">verify_login</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TestCase_02_Propertiesfile</td><td><a href="#m0">login_TestCase</a></td><td rowspan="1">1771661672940</td><td rowspan="1">11428</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TestCase_01</td><td><a href="#m1">Registration_TestCase</a></td><td rowspan="1">1771661657333</td><td rowspan="1">5177</td></tr><tr class="passedodd"><td rowspan="5">testCases.Testcase_03_DDT</td><td><a href="#m2">verify_login</a></td><td rowspan="5">1771661711153</td><td rowspan="5">11764</td></tr><tr class="passedodd"><td><a href="#m3">verify_login</a></td></tr><tr class="passedodd"><td><a href="#m4">verify_login</a></td></tr><tr class="passedodd"><td><a href="#m5">verify_login</a></td></tr><tr class="passedodd"><td><a href="#m6">verify_login</a></td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCases.TestCase_01#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
+<h2>Test</h2><h3 id="m0">testCases.TestCase_02_Propertiesfile#login_TestCase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Login fail expected [true] but found [false]
+	at testCases.TestCase_02_Propertiesfile.login_TestCase(TestCase_02_Propertiesfile.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TestCase_02_Propertiesfile#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.Testcase_03_DDT#Setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCases.TestCase_01#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCases.TestCase_02_Propertiesfile#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCases.Testcase_03_DDT#TearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testCases.TestCase_01#Registration_TestCase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">testCases.TestCase_02_Propertiesfile#login_TestCase</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>laksh@yahoo.com</td><td>laksh</td><td>invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>lakshmi@yahoo.com</td><td>laxmi</td><td>invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>xxxxyyyy@gmail.com</td><td>Nikita@278374</td><td>valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>laki@yahoo.com</td><td>laki@234</td><td>invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>vijidevi@gmail.com</td><td>VijiDevi@278374</td><td>valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;os&apos; is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TestCase_01#Registration_TestCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>laksh@yahoo.com</td><td>laksh</td><td>invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>xxxxyyyy@gmail.com</td><td>Nikita@278374</td><td>valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>vijidevi@gmail.com</td><td>VijiDevi@278374</td><td>valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>laki@yahoo.com</td><td>laki@234</td><td>invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.Testcase_03_DDT#verify_login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>lakshmi@yahoo.com</td><td>laxmi</td><td>invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
