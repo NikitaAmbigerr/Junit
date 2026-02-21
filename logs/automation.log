@@ -22,3 +22,21 @@
 13:44:34.008 [main] INFO  testCases.TestCase_02_Propertiesfile - Entering password
 13:44:34.165 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login button
 13:44:34.306 [main] INFO  testCases.TestCase_02_Propertiesfile - verifying msg dispalyed
+14:02:24.875 [main] INFO  testCases.TestCase_01 - Starting TC_001 AccountRegisteration
+14:02:24.943 [main] INFO  testCases.TestCase_01 - clicked on my account
+14:02:25.253 [main] INFO  testCases.TestCase_01 - clicked on Register
+14:02:26.390 [main] INFO  testCases.TestCase_01 - Entering first name 
+14:02:26.659 [main] INFO  testCases.TestCase_01 - Entering last name 
+14:02:26.825 [main] INFO  testCases.TestCase_01 - Entering email 
+14:02:26.972 [main] INFO  testCases.TestCase_01 - Entering telephone 
+14:02:27.092 [main] INFO  testCases.TestCase_01 - Entering password 
+14:02:27.236 [main] INFO  testCases.TestCase_01 - Entering confirm password 
+14:02:27.362 [main] INFO  testCases.TestCase_01 - Check privacy box 
+14:02:27.505 [main] INFO  testCases.TestCase_01 - click on continue 
+14:02:28.566 [main] INFO  testCases.TestCase_01 - validating expected message
+14:02:40.306 [main] INFO  testCases.TestCase_02_Propertiesfile - ***  started TestCase_02 Login ****
+14:02:40.307 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login
+14:02:40.933 [main] INFO  testCases.TestCase_02_Propertiesfile - entering Email
+14:02:41.222 [main] INFO  testCases.TestCase_02_Propertiesfile - Entering password
+14:02:41.391 [main] INFO  testCases.TestCase_02_Propertiesfile - clicking on login button
+14:02:41.549 [main] INFO  testCases.TestCase_02_Propertiesfile - verifying msg dispalyed

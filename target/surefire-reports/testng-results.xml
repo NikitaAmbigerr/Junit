@@ -1,70 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-18T22:34:01 IST" name="Suite" finished-at="2026-02-18T22:34:07 IST" duration-ms="6054">
+  <suite started-at="2026-02-21T14:02:04 IST" name="Suite" finished-at="2026-02-21T14:03:48 IST" duration-ms="103580">
     <groups>
       <group name="datadriven">
-        <method signature="Testcase_03_DDT.verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" name="verify_login" class="testCases.Testcase_03_DDT"/>
+        <method signature="Testcase_03_DDT.verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" name="verify_login" class="testCases.Testcase_03_DDT"/>
       </group> <!-- datadriven -->
       <group name="regression">
-        <method signature="TestCase_01.Registration_TestCase()[pri:0, instance:testCases.TestCase_01@338c99c8]" name="Registration_TestCase" class="testCases.TestCase_01"/>
+        <method signature="TestCase_01.Registration_TestCase()[pri:0, instance:testCases.TestCase_01@172b013]" name="Registration_TestCase" class="testCases.TestCase_01"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TestCase_02_Propertiesfile.login_TestCase()[pri:0, instance:testCases.TestCase_02_Propertiesfile@b4711e2]" name="login_TestCase" class="testCases.TestCase_02_Propertiesfile"/>
+        <method signature="TestCase_02_Propertiesfile.login_TestCase()[pri:0, instance:testCases.TestCase_02_Propertiesfile@62010f5c]" name="login_TestCase" class="testCases.TestCase_02_Propertiesfile"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TestCase_01.Registration_TestCase()[pri:0, instance:testCases.TestCase_01@338c99c8]" name="Registration_TestCase" class="testCases.TestCase_01"/>
-        <method signature="TestCase_02_Propertiesfile.login_TestCase()[pri:0, instance:testCases.TestCase_02_Propertiesfile@b4711e2]" name="login_TestCase" class="testCases.TestCase_02_Propertiesfile"/>
+        <method signature="TestCase_01.Registration_TestCase()[pri:0, instance:testCases.TestCase_01@172b013]" name="Registration_TestCase" class="testCases.TestCase_01"/>
+        <method signature="TestCase_02_Propertiesfile.login_TestCase()[pri:0, instance:testCases.TestCase_02_Propertiesfile@62010f5c]" name="login_TestCase" class="testCases.TestCase_02_Propertiesfile"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2026-02-18T22:34:01 IST" name="Test" finished-at="2026-02-18T22:34:07 IST" duration-ms="6054">
+    <test started-at="2026-02-21T14:02:04 IST" name="Test" finished-at="2026-02-21T14:03:48 IST" duration-ms="103580">
       <class name="testCases.Testcase_03_DDT">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" started-at="2026-02-18T22:34:01 IST" name="Setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1771434241861" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" started-at="2026-02-21T14:02:54 IST" name="Setup" finished-at="2026-02-21T14:03:03 IST" duration-ms="9697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" started-at="2026-02-18T22:34:07 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-18T22:34:07 IST" duration-ms="1" status="SKIP">
+        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" started-at="2026-02-21T14:03:07 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-21T14:03:10 IST" duration-ms="2714" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,50 +54,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" started-at="2026-02-18T22:34:07 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-18T22:34:07 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" started-at="2026-02-21T14:03:10 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-21T14:03:21 IST" duration-ms="11610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -143,50 +75,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" started-at="2026-02-18T22:34:07 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-18T22:34:07 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" started-at="2026-02-21T14:03:21 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-21T14:03:33 IST" duration-ms="12123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,50 +96,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" started-at="2026-02-18T22:34:07 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-18T22:34:07 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" started-at="2026-02-21T14:03:33 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-21T14:03:45 IST" duration-ms="11536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,50 +117,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" started-at="2026-02-18T22:34:07 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-18T22:34:07 IST" duration-ms="1" status="SKIP">
+        <test-method signature="verify_login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" started-at="2026-02-21T14:03:45 IST" name="verify_login" data-provider="Login_Data" finished-at="2026-02-21T14:03:47 IST" duration-ms="2299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -326,211 +138,81 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.Testcase_03_DDT@1fa1cab1]" started-at="2026-02-18T22:34:07 IST" name="TearDown" finished-at="2026-02-18T22:34:07 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.Testcase_03_DDT@51fadaff]" started-at="2026-02-21T14:03:47 IST" name="TearDown" finished-at="2026-02-21T14:03:48 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testCases.Testcase_03_DDT -->
       <class name="testCases.TestCase_01">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestCase_01@338c99c8]" started-at="2026-02-18T22:34:01 IST" name="Setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1771434241719" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestCase_01@172b013]" started-at="2026-02-21T14:02:05 IST" name="Setup" finished-at="2026-02-21T14:02:24 IST" duration-ms="19660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Registration_TestCase()[pri:0, instance:testCases.TestCase_01@338c99c8]" started-at="2026-02-18T22:34:01 IST" name="Registration_TestCase" finished-at="2026-02-18T22:34:01 IST" duration-ms="1" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="Registration_TestCase()[pri:0, instance:testCases.TestCase_01@172b013]" started-at="2026-02-21T14:02:24 IST" name="Registration_TestCase" finished-at="2026-02-21T14:02:29 IST" duration-ms="4481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_TestCase -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TestCase_01@338c99c8]" started-at="2026-02-18T22:34:01 IST" name="TearDown" finished-at="2026-02-18T22:34:01 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TestCase_01@172b013]" started-at="2026-02-21T14:02:29 IST" name="TearDown" finished-at="2026-02-21T14:02:31 IST" duration-ms="2274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testCases.TestCase_01 -->
       <class name="testCases.TestCase_02_Propertiesfile">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestCase_02_Propertiesfile@b4711e2]" started-at="2026-02-18T22:34:01 IST" name="Setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1771434241844" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestCase_02_Propertiesfile@62010f5c]" started-at="2026-02-21T14:02:31 IST" name="Setup" finished-at="2026-02-21T14:02:40 IST" duration-ms="8649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="login_TestCase()[pri:0, instance:testCases.TestCase_02_Propertiesfile@b4711e2]" started-at="2026-02-18T22:34:01 IST" name="login_TestCase" finished-at="2026-02-18T22:34:01 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
+        <test-method signature="login_TestCase()[pri:0, instance:testCases.TestCase_02_Propertiesfile@62010f5c]" started-at="2026-02-21T14:02:40 IST" name="login_TestCase" finished-at="2026-02-21T14:02:51 IST" duration-ms="11307" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml]]>
+              <![CDATA[Login fail expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'os' is required by BeforeClass on method Setup but has not been marked @Optional or defined
-in C:\Users\win 10\eclipse-workspace\SDET-HybridFrameWork\MasterSuitTestng1.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+              <![CDATA[java.lang.AssertionError: Login fail expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at testCases.TestCase_02_Propertiesfile.login_TestCase(TestCase_02_Propertiesfile.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
@@ -553,11 +235,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_TestCase -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TestCase_02_Propertiesfile@b4711e2]" started-at="2026-02-18T22:34:01 IST" name="TearDown" finished-at="2026-02-18T22:34:01 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TestCase_02_Propertiesfile@62010f5c]" started-at="2026-02-21T14:02:51 IST" name="TearDown" finished-at="2026-02-21T14:02:54 IST" duration-ms="2231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
